@@ -1,0 +1,92 @@
+main: net.athenamc.spigot.core.SpigotCore
+name: AthenaCore
+version: 1.0
+author: HollowDev
+commands:
+ addrank:
+  description: Creates a rank
+  usage: /<command> [rank]
+ checkrank:
+  description: Tells you the rank of a player
+  usage: /<command> [player]
+ delrank:
+  description: Delete a rank
+  usage: /<command> [rank]
+ editrank:
+  description: Change a rank's name, prefix, chatformat, or power
+  usage: /<command> [rank] [attribute] [value]
+ setrank:
+  description: Set a player's rank
+  usage: /<command> [player] [rank]
+ listranks:
+  description: List the ranks
+  usage: /<command>
+  aliases: [rankpower]
+ staffchat:
+  description: Send a message to all online staff (Atleast 1 player must be online to send the message)
+  usage: /<command> <message>
+  aliases: [sc]
+ chatmute:
+  description: Mutes the chat so no one can talk
+  usage: /<command>
+ chatunmute:
+  description: Unmutes the chat so that players can talk again
+  usage: /<command>
+ chatclear:
+  description: Clear the chat window
+  usage: /<command>
+ hide:
+  description: Hide from all online players
+  usage: /<command>
+ show:
+  description: Show yourself to all online players
+  usage: /<command>
+ fly:
+  description: Toggle flight mode
+  usage: /<command>
+ flyspeed:
+  description: Change the speed that you fly at
+  usage: /<command> <speed>
+ report:
+  description: Reports a player to online staff
+  usage: /<command> [player]
+ playtime:
+  description: Shows you the amount of time you have spend on the server, specific and global
+  usage: /<command>
+  aliases: [played]
+ hub:
+  decription: Goes to the hub server
+  usage: /<command>
+ givetickets:
+  description: Give Caps to a player
+  usage: /<command> [player] [amount]
+ givegems:
+  description: Give Gems to a player
+  usage: /<command> [player] [amount]
+ deltickets:
+  description: Remove Caps from a player
+  usage: /<command> [player] [amount]
+ delgems:
+  description: Remove Gems from a player
+  usage: /<command> [player] [amount]
+ market:
+  description: Opens a market, if not specified it opens the navigation menu
+  usage: /<command> <market>
+ gems:
+  description: Shows you how many gems you have
+  usage: /<command>
+ tickets:
+  description: Shows you how many caps you have
+  usage: /<command>
+ addperm:
+  description: Add a permission to a player or a rank
+  usage: /<command> [RANK|PLAYER] [rank/player name] [permission]
+ delperm:
+  description: Remove a permission from a player or rank
+  usage: /<command> [RANK|PLAYER] [rank/player name] [permission]
+ checkperm:
+  description: Check what permissions a player or rank has
+  usage: /<command> [RANK|PLAYER] [rank/player name]
+ spawnpoint:
+  description: Sets the world spawn point to your current location
+  usage: /<command>
