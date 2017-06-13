@@ -1,0 +1,2 @@
+# AthenaCore
+core plugin
